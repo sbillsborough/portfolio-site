@@ -43,6 +43,7 @@ header nav {
   display: grid;
   grid-column: 2 / 3;
   justify-content: center;
+  align-items: center;
 }
 
 main {
