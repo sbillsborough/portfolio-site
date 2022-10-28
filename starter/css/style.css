@@ -16,11 +16,7 @@ body {
 }
 
 body {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-columns: 50px auto 50px; */
   display: grid;
-  grid-template-columns: 1fr;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -50,8 +46,8 @@ p {
   margin: 0;
 }
 
-main .page-wrapper {
+main {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
 }
