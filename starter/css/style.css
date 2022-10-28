@@ -10,12 +10,31 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
+}
+
+body {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 50px auto 50px; */
+  display: grid;
+  grid-template-columns: 1fr;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+}
+
+header {
+  display: grid;
+  grid-column: 1 / 4;
+}
+
+header nav {
+  grid-column: 2 / 4;
+  justify-self: flex-end;
+  padding: 10px;
 }
 
 h1,
@@ -29,4 +48,10 @@ h6 {
 
 p {
   margin: 0;
+}
+
+main .page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
