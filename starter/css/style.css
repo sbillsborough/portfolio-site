@@ -17,6 +17,10 @@ body {
 
 body {
   display: grid;
+  grid-template-areas:
+    "section-1"
+    "section-2"
+    "section-3";
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -31,23 +35,19 @@ header nav {
   grid-column: 2 / 4;
   justify-self: flex-end;
   padding: 10px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
+  grid-row: 1 / 2;
 }
 
 main {
   display: grid;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
   align-items: center;
   margin: 0 auto;
+}
+
+.hero-banner {
+  display: grid;
+  grid-column: 2 / 3;
+  justify-content: center;
 }
