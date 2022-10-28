@@ -20,8 +20,10 @@ body {
   grid-template-areas:
     "section-1"
     "section-2"
-    "section-3";
-  grid-template-rows: 5% 1fr 1fr;
+    "section-3"
+    "section-4"
+    "section-5";
+  grid-template-rows: 5% 1fr 1fr 1fr 1fr;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
