@@ -17,7 +17,7 @@ body {
 
 body {
   display: grid;
-  grid-template-rows: 5% 5%;
+  grid-template-rows: 5% 5% 1fr;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
@@ -43,11 +43,29 @@ header nav {
 }
 
 main {
-  grid-column-start: 2;
+  grid-column: 1 / 4;
   display: grid;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "section-1"
     "section-2"
     "section-3";
   justify-content: center;
+  margin-top: 20px;
+}
+
+#about {
+  grid-area: section-1;
+  background: yellow;
+}
+
+#work {
+  grid-area: section-2;
+  background: green;
+  width: 100%;
+}
+
+#contact {
+  grid-area: section-3;
+  background: lightblue;
 }
