@@ -57,6 +57,19 @@ main {
   margin-top: 20px;
 }
 
+#project-1 {
+  grid-column: 1 / 3;
+  background: #fff;
+}
+
+#project-2 {
+  background: #fdf;
+}
+
+#project-3 {
+  background: #ffa;
+}
+
 #about {
   grid-area: section-1;
   background: yellow;
@@ -70,4 +83,10 @@ main {
 #contact {
   grid-area: section-3;
   background: lightblue;
+}
+
+.work-grid {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
 }
