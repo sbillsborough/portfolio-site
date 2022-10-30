@@ -52,7 +52,7 @@ h2 {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  background-image: url(/starter/images/scott.jpg);
+  background-image: url(../images/scott.jpg);
   height: 200px;
   border: 2px solid var(--border-color);
 }
