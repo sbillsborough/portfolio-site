@@ -148,12 +148,10 @@ p {
   border: var(--border);
   margin: 0.3rem;
   border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
 }
 
 .page-section .footer-share a:hover {
   color: var(--main-color);
-  border: var(--main-color);
+  border: 2px solid var(--main-color);
 }
