@@ -158,9 +158,19 @@ p {
 
 /* Media Queries */
 
+@media only screen and (max-width: 472px) {
+  header nav a {
+    font-size: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 346px) {
   h1 {
     font-size: 0.6rem;
+  }
+
+  h2 {
+    padding: 5px;
   }
 
   header nav a {
