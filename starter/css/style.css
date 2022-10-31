@@ -139,3 +139,21 @@ p {
   grid-template-rows: 75% 25%;
   padding: 20px;
 }
+
+.page-section .footer-share a {
+  height: 4rem;
+  width: 4rem;
+  font-size: 2.6rem;
+  color: #fff;
+  border: var(--border);
+  margin: 0.3rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.page-section .footer-share a:hover {
+  color: var(--main-color);
+  border: var(--main-color);
+}
