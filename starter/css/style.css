@@ -1,9 +1,13 @@
+/* Colour variables */
+
 :root {
   --main-color: #e64949;
   --black: #151520;
   --bg: #0d0d11;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
+
+/* Main styling */
 
 * {
   margin: 0;
@@ -25,6 +29,8 @@ body {
   background: var(--bg);
   padding: 20px;
 }
+
+/* Header and nav styling */
 
 header {
   display: grid;
@@ -66,6 +72,8 @@ img {
   border: 2px solid var(--border);
 }
 
+/* Hero section */
+
 .hero-banner {
   display: grid;
   grid-column: 2 / 3;
@@ -75,6 +83,8 @@ img {
   height: 200px;
   border: 2px solid var(--border);
 }
+
+/* Main section */
 
 main {
   grid-column: 1 / 4;
@@ -131,6 +141,8 @@ p {
 #contact a {
   padding: 10px 0;
 }
+
+/* Work grid section */
 
 .work-grid {
   display: grid;
