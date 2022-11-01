@@ -8,6 +8,7 @@
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
+- [Live Application](#live-application)
 - [Features](#features)
 - [Status](#status)
 - [Contact](#contact)
@@ -28,6 +29,10 @@ Portfolio site to showcase current projects that I have worked on.
 ## Setup
 
 Open the index.html in any modern browser.
+
+## Live Application
+
+https://sbillsborough.github.io/portfolio-site/
 
 ## Features
 
